@@ -1,7 +1,7 @@
 # LikaApp
 
 > Like the yuka app 
-   Techno => Nuxt, NodeJs, Sass, JS
+   // Techno => Nuxt, NodeJs, Sass, JS
 
 ## Build Setup
 
