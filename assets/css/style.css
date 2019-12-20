@@ -1,0 +1,139 @@
+body {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  background: #222;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+nav {
+  background: #2dff96;
+  background-image: #2dff96;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+  color: #fff;
+  width: 100%;
+  height: 95px;
+  margin-bottom: 40px;
+}
+nav h1 {
+  align-self: center;
+}
+
+.inner {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 0em 2em;
+}
+
+@media screen and (min-width: 700px) {
+  .inner {
+    padding: 0em 5em;
+  }
+}
+.contentProduit {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background: #2dff96;
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 2em;
+}
+
+@media screen and (min-width: 400px) {
+  .contentProduit {
+    width: 45%;
+  }
+}
+@media screen and (min-width: 1080px) {
+  .contentProduit {
+    width: 29%;
+  }
+}
+.produit {
+  width: 100%;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  background: #222;
+}
+.produit h3 {
+  top: -26px;
+  align-self: center;
+  padding: 0px 10px;
+  background: #222;
+  position: relative;
+  font-size: 100%;
+  overflow-y: hidden;
+}
+.produit .imgContainer {
+  width: 100%;
+  overflow: hidden;
+}
+.produit .imgContainer img {
+  width: 100%;
+  height: auto;
+  transition: 0.2s;
+}
+.produit:hover .imgContainer img {
+  transform: scale(1.2);
+}
+.produit .row {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-content: flex-start;
+}
+.produit .quantity {
+  font-weight: 100;
+  margin-left: 0px;
+}
+@media screen and (min-width: 700px) {
+  .produit .row {
+    flex-direction: row;
+  }
+  .produit .quantity {
+    margin-left: 15px;
+  }
+}
+.produit .nameProd {
+  font-size: 1.2em;
+  font-weight: 700;
+  color: #2dff96;
+  margin-bottom: 5px;
+}
+.produit:hover .nameProd {
+  text-decoration: underline;
+}
+.produit .brand {
+  font-size: 0.8em;
+  font-weight: 100;
+  letter-spacing: 2px;
+}
+.produit .brand::before {
+  content: "by : ";
+}
+.produit .state {
+  margin-top: 5px;
+  color: #fff;
+  padding: 0.2em 0.6em;
+  align-self: flex-start;
+  min-width: 6%;
+  text-align: center;
+  position: absolute;
+}
+
+/*# sourceMappingURL=style.css.map */
