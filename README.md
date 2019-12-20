@@ -1,6 +1,7 @@
 # LikaApp
 
-> My top-notch Nuxt.js project
+> Like the yuka app 
+   Techno => Nuxt, NodeJs, Sass, JS
 
 ## Build Setup
 
